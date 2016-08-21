@@ -1,0 +1,77 @@
+SELECT PARAMETER, VALUE FROM nls_database_parameters
+WHERE parameter = 'NLS_CHAR_CHARACTERSET';
+
+create user VDP identified by vdp;
+
+grant CREATE SESSION, ALTER SESSION, CREATE DATABASE LINK, CREATE MATERIALIZED VIEW, CREATE PROCEDURE, CREATE PUBLIC SYNONYM, CREATE ROLE, CREATE SEQUENCE, CREATE SYNONYM, CREATE TABLE, CREATE TRIGGER, CREATE TYPE, CREATE VIEW, UNLIMITED TABLESPACE to VDP;
+
+DROP TABLE VDP.READING;
+DROP TABLE VDP.REGDATAWEEK;
+DROP TABLE VDP.REGDATATOTAL;
+-- 
+--  Creating table READING
+--  =============================
+-- 
+
+create table VDP.READING
+(
+  ID                      NUMBER(19) not null,   
+  MARKET                  VARCHAR2(255 CHAR),
+  PARTNER                 VARCHAR2(255 CHAR),
+  WORKOUT_DATE            DATE,
+  MANUFACTURER            VARCHAR2(255 CHAR),
+  DEVICE_MODEL            NVARCHAR2(1000),
+  WORKOUT_TYPE            VARCHAR2(255 CHAR),
+  ACTIVITY_TYPE           VARCHAR2(255 CHAR),
+  TOTAL_WORKOUTS          NUMBER(10),
+  TOTAL_UNIQUE_USERS      NUMBER(10),
+  TOTAL_READINGS          NUMBER(10)
+)
+;
+
+alter table VDP.READING
+  add primary key (ID);
+
+-- 
+--  Creating table REGDATAWEEK
+--  =============================
+-- 
+
+--MARKET  MARKET_TIMEZONE PARTNER PARTNER_REGISTER_DATE_LOCAL TOTAL_REGISTRATIONS
+
+create table VDP.REGDATAWEEK
+(
+  ID                      NUMBER(19) not null,   
+  MARKET                  VARCHAR2(255 CHAR),
+  MARKET_TIMEZONE         VARCHAR2(255 CHAR), 
+  PARTNER                 VARCHAR2(255 CHAR),
+  PARTNER_REGISTER_DATE_LOCAL DATE,
+  TOTAL_REGISTRATIONS          NUMBER(10)
+)
+;
+
+
+alter table VDP.REGDATAWEEK
+  add primary key (ID);
+
+
+-- 
+--  Creating table REGDATATOTAL
+--  =============================
+-- 
+
+-- MARKET,PARTNER,PARTNER_LINK_STATUS,TOTAL_REGISTRATIONS
+
+create table VDP.REGDATATOTAL
+(
+  ID                      NUMBER(19) not null,   
+  MARKET                  VARCHAR2(255 CHAR),
+  PARTNER                 VARCHAR2(255 CHAR),
+  PARTNER_LINK_STATUS     VARCHAR2(255 CHAR),
+  TOTAL_REGISTRATIONS     NUMBER(10)
+)
+;
+
+alter table VDP.REGDATATOTAL
+  add primary key (ID);
+

@@ -1,0 +1,144 @@
+"MARKET","PARTNER","PARTNER_LINK_STATUS","TOTAL_REGISTRATIONS"
+"AIA Australia","GARMIN","ACTIVE",741
+"AIA Australia","GARMIN","INACTIVE",29
+"AIA Australia","GARMIN","PENDING",50
+"AIA Australia","MMF","INACTIVE",2764
+"AIA Australia","POLAR","ACTIVE",74
+"AIA Australia","POLAR","INACTIVE",24
+"AIA Australia","POLAR","PENDING",23
+"AIA Australia","VALIDIC","ACTIVE",3116
+"AIA Australia","VALIDIC","INACTIVE",224
+"AIA Australia","VALIDIC","PENDING",400
+"AIA Australia","VITALITY SELF-REPORTED","ACTIVE",2436
+"AIA Hong Kong","APPLE","ACTIVE",13493
+"AIA Hong Kong","GARMIN","ACTIVE",758
+"AIA Hong Kong","GARMIN","INACTIVE",117
+"AIA Hong Kong","GARMIN","PENDING",135
+"AIA Hong Kong","MMF","INACTIVE",251
+"AIA Hong Kong","POLAR","ACTIVE",159
+"AIA Hong Kong","POLAR","INACTIVE",119
+"AIA Hong Kong","POLAR","PENDING",100
+"AIA Hong Kong","SAMSUNG","ACTIVE",4324
+"AIA Hong Kong","VALIDIC","ACTIVE",12504
+"AIA Hong Kong","VALIDIC","INACTIVE",346
+"AIA Hong Kong","VALIDIC","PENDING",12909
+"AIA Hong Kong","VITALITY SELF-REPORTED","ACTIVE",16764
+"AIA Hong Kong","XIAOMI","ACTIVE",5826
+"AIA Hong Kong","XIAOMI","INACTIVE",489
+"AIA Hong Kong","XIAOMI","PENDING",1000
+"AIA Malaysia","APPLE","ACTIVE",561
+"AIA Malaysia","GARMIN","ACTIVE",88
+"AIA Malaysia","GARMIN","INACTIVE",5
+"AIA Malaysia","GARMIN","PENDING",8
+"AIA Malaysia","MMF","INACTIVE",2
+"AIA Malaysia","POLAR","ACTIVE",19
+"AIA Malaysia","POLAR","INACTIVE",9
+"AIA Malaysia","POLAR","PENDING",5
+"AIA Malaysia","SAMSUNG","ACTIVE",437
+"AIA Malaysia","VALIDIC","ACTIVE",1535
+"AIA Malaysia","VALIDIC","INACTIVE",3
+"AIA Malaysia","VALIDIC","PENDING",516
+"AIA Malaysia","VITALITY SELF-REPORTED","ACTIVE",2737
+"AIA Malaysia","XIAOMI","ACTIVE",942
+"AIA Malaysia","XIAOMI","INACTIVE",35
+"AIA Malaysia","XIAOMI","PENDING",124
+"AIA Philippines","APPLE","ACTIVE",38
+"AIA Philippines","GARMIN","ACTIVE",33
+"AIA Philippines","GARMIN","INACTIVE",2
+"AIA Philippines","GARMIN","PENDING",6
+"AIA Philippines","POLAR","ACTIVE",1
+"AIA Philippines","POLAR","INACTIVE",6
+"AIA Philippines","POLAR","PENDING",1
+"AIA Philippines","SAMSUNG","ACTIVE",22
+"AIA Philippines","VALIDIC","ACTIVE",79
+"AIA Philippines","VALIDIC","INACTIVE",10
+"AIA Philippines","VALIDIC","PENDING",58
+"AIA Philippines","VITALITY SELF-REPORTED","ACTIVE",260
+"AIA Singapore","GARMIN","ACTIVE",198
+"AIA Singapore","GARMIN","INACTIVE",26
+"AIA Singapore","GARMIN","PENDING",20
+"AIA Singapore","MMF","INACTIVE",5139
+"AIA Singapore","POLAR","ACTIVE",239
+"AIA Singapore","POLAR","INACTIVE",44
+"AIA Singapore","POLAR","PENDING",64
+"AIA Singapore","VALIDIC","ACTIVE",3405
+"AIA Singapore","VALIDIC","INACTIVE",85
+"AIA Singapore","VALIDIC","PENDING",776
+"AIA Singapore","VITALITY SELF-REPORTED","ACTIVE",4661
+"AIA Singapore","XIAOMI","INACTIVE",1
+"AIA Thailand","APPLE","ACTIVE",787
+"AIA Thailand","GARMIN","ACTIVE",832
+"AIA Thailand","GARMIN","INACTIVE",24
+"AIA Thailand","GARMIN","PENDING",70
+"AIA Thailand","POLAR","ACTIVE",13
+"AIA Thailand","POLAR","INACTIVE",14
+"AIA Thailand","POLAR","PENDING",11
+"AIA Thailand","SAMSUNG","ACTIVE",407
+"AIA Thailand","VALIDIC","ACTIVE",1063
+"AIA Thailand","VALIDIC","INACTIVE",23
+"AIA Thailand","VALIDIC","PENDING",684
+"AIA Thailand","VITALITY SELF-REPORTED","ACTIVE",3199
+"AIA Vietnam","VALIDIC","PENDING",1
+"Discovery RSA","APPLE","ACTIVE",109150
+"Discovery RSA","ESC","ACTIVE",1
+"Discovery RSA","GARMIN","ACTIVE",26918
+"Discovery RSA","GARMIN","INACTIVE",1073
+"Discovery RSA","GARMIN","PENDING",1624
+"Discovery RSA","MMF","INACTIVE",108181
+"Discovery RSA","MMF","PENDING",2
+"Discovery RSA","POLAR","ACTIVE",17124
+"Discovery RSA","POLAR","INACTIVE",4898
+"Discovery RSA","POLAR","PENDING",18526
+"Discovery RSA","ROAG","ACTIVE",1
+"Discovery RSA","RTEC","ACTIVE",25648
+"Discovery RSA","SAMSUNG","ACTIVE",49482
+"Discovery RSA","VALIDIC","ACTIVE",74130
+"Discovery RSA","VALIDIC","INACTIVE",7054
+"Discovery RSA","VALIDIC","PENDING",24614
+"Discovery RSA","VITALITY SELF-REPORTED","ACTIVE",75797
+"Discovery RSA","VITALITY SELF-REPORTED","INACTIVE",2
+"Discovery RSA","VITALITY SELF-REPORTED","PENDING",7719
+"Discovery RSA","IHEALTH","ACTIVE",165
+"Discovery RSA","IHEALTH","INACTIVE",743
+"Discovery RSA","IHEALTH","PENDING",1645
+"Generali France","GARMIN","ACTIVE",30
+"Generali France","GARMIN","INACTIVE",2
+"Generali France","GARMIN","PENDING",6
+"Generali France","POLAR","ACTIVE",1
+"Generali France","POLAR","INACTIVE",2
+"Generali France","POLAR","PENDING",2
+"Generali France","VALIDIC","ACTIVE",32
+"Generali France","VALIDIC","PENDING",9
+"Generali France","VITALITY SELF-REPORTED","ACTIVE",73
+"Generali France","IHEALTH","PENDING",2
+"Generali Germany","GARMIN","ACTIVE",236
+"Generali Germany","GARMIN","INACTIVE",22
+"Generali Germany","GARMIN","PENDING",39
+"Generali Germany","POLAR","ACTIVE",267
+"Generali Germany","POLAR","INACTIVE",33
+"Generali Germany","POLAR","PENDING",65
+"Generali Germany","VALIDIC","ACTIVE",866
+"Generali Germany","VALIDIC","INACTIVE",2
+"Generali Germany","VALIDIC","PENDING",206
+"Generali Germany","VITALITY SELF-REPORTED","ACTIVE",1913
+"Generali Germany","IHEALTH","ACTIVE",1
+"Generali Germany","IHEALTH","INACTIVE",10
+"Generali Germany","IHEALTH","PENDING",59
+"TVG","APPLE","ACTIVE",50543
+"TVG","GARMIN","ACTIVE",16190
+"TVG","GARMIN","INACTIVE",802
+"TVG","GARMIN","PENDING",2159
+"TVG","POLAR","ACTIVE",3835
+"TVG","POLAR","INACTIVE",261
+"TVG","POLAR","PENDING",7972
+"TVG","VALIDIC","PENDING",4
+"VitalityHealth / Life","APPLE","ACTIVE",21508
+"VitalityHealth / Life","GARMIN","ACTIVE",26711
+"VitalityHealth / Life","GARMIN","INACTIVE",1133
+"VitalityHealth / Life","GARMIN","PENDING",898
+"VitalityHealth / Life","POLAR","ACTIVE",5410
+"VitalityHealth / Life","POLAR","INACTIVE",283
+"VitalityHealth / Life","POLAR","PENDING",703
+"VitalityHealth / Life","VALIDIC","ACTIVE",111036
+"VitalityHealth / Life","VALIDIC","INACTIVE",2392
+"VitalityHealth / Life","VALIDIC","PENDING",4929

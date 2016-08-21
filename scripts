@@ -1,0 +1,7 @@
+sqlldr VDP/vdp CONTROL=readings.ctl, DATA=readings.csv, BAD=readings.bad, LOG=readings.log
+sqlldr VDP/vdp CONTROL=regdataweek.ctl, DATA=regdataweek.csv, BAD=regdataweek.bad, LOG=regdataweek.log
+sqlldr VDP/vdp CONTROL=regdatatotal.ctl, DATA=regdatatotal.csv, BAD=regdatatotal.bad, LOG=regdatatotal.log
+
+sudo /opt/kibana/bin/kibana plugin --install elastic/sense
+sudo /opt/logstash/bin/logstash-plugin install logstash-input-jdbc
+phantomjs rasterize.js http://localhost/goto/e5799540a19206d78c527f21aa2e6285 all_markets.png 1920px
